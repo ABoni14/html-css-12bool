@@ -1,0 +1,41 @@
+.view{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.container{
+  /* margin-top: 50px; */
+  width: 550px;
+  height: 900px;
+}
+.container.due{
+  margin-left: -1px;
+}
+
+.box{
+  width: 100%;
+  height: 50px;
+}
+
+.box.red{
+  background-color: #e54a38;
+}
+
+.box.orange{
+  background-color: #f38f06;
+}
+
+.box.yellow{
+  background-color: #f3e601;
+}
+
+.box.grey{
+  background-color: #d0d2cf;
+}
+
+.box.black{
+  background-color: #353a34;
+}
